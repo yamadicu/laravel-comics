@@ -4,11 +4,10 @@
 
 
     #jumbo {
-        background-image: url(../../images/jumbotron.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        height: 400px;
+        img {
+            height: 400px;
+            width: 100vw;
+        }
     }
 
     .container {
@@ -45,8 +44,10 @@
                 max-width: 200px;
             }
 
+            background-color: rgb(28 28 28);
             max-height: 300px;
             border: 0px solid;
+            color: white;
         }
 
         #load-cont {

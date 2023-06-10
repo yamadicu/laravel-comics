@@ -1,6 +1,7 @@
 
 <div class="content">
     <div id="jumbo">
+        <img src="resources\images\jumbotron.jpg" alt="">
         <div class="container">
             <div id="serie">
                 <span>current series</span>
@@ -13,7 +14,6 @@
                             <img src="{{ $elem['thumb'] }}" alt="">
                             <div class="card-body">
                                 <h6 class="card-title">{{ $elem['series'] }}</h6>
-                                <p class="card-text">{{ $elem['price'] }}</p>
                             </div>
                         </div>
                     </div>

@@ -8,13 +8,9 @@
     @vite('resources/js/app.js')
 </head>
 <body>
-    @include( 'partials.header' )
-
-    <main>
-        @include ('partials.fumetti')
-        @yield('content')
-    </main>
-
-    @include( 'partials.footer' )
+    @include ('partials.header')
+    @include ('partials.fumetti')
+    @include ('partials.icon')    
+    @include ('partials.footer')
 </body>
 </html>
