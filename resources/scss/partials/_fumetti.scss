@@ -1,0 +1,65 @@
+.content {
+    margin-top: 3px;
+    background-color: rgb(28 28 28);
+
+
+    #jumbo {
+        background-image: url(../../images/jumbotron.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 400px;
+    }
+
+    .container {
+        margin: 0 auto;
+        width: 80%;
+        padding: 30px 0;
+        display: flex;
+        flex-direction: column;
+
+        #serie {
+            background-color: rgb(2, 130, 249);
+            padding: 10px;
+            max-width: 200px;
+            margin-top: -40px;
+
+            span {
+                color: white;
+                text-transform: uppercase;
+                font-weight: bold;
+
+            }
+        }
+
+        #cont-fumetti {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 100px;
+        }
+
+        .card {
+            img {
+                max-height: 200px;
+                max-width: 200px;
+            }
+
+            max-height: 300px;
+            border: 0px solid;
+        }
+
+        #load-cont {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            div {
+                background-color: rgb(2, 130, 249);
+                padding: 10px;
+                padding-inline: 30px;
+                font-weight: bold;
+            }
+        }
+    }
+}
