@@ -3,7 +3,7 @@
             <div class="col-1">
                 <div>
                     <ul>
-                        <h4 class="white">DC COMICS</h4>
+                        <h4 class="text-light">DC COMICS</h4>
                         <li>
                             <a href="#">Characters</a>
                         </li>
@@ -27,7 +27,7 @@
                         </li>
                     </ul>
                     <ul>
-                        <h4 class="titolo-lista white">SHOP</h4>
+                        <h4 class="titolo-lista text-light">SHOP</h4>
                         <li>
                             <a href="#">Shop DC</a>
                         </li>
@@ -38,7 +38,7 @@
                 </div>
                 <div>
                     <ul>
-                        <h4 class="titolo-lista white">DC</h4>
+                        <h4 class="titolo-lista text-light">DC</h4>
                         <li>
                             <a href="#">Terms Of Use</a>
                         </li>
@@ -76,7 +76,7 @@
                 </div>
                 <div>
                     <ul>
-                        <h4 class="titolo-lista white">SITES</h4>
+                        <h4 class="titolo-lista text-light">SITES</h4>
                         <li>
                             <a href="#">DC</a>
                         </li>

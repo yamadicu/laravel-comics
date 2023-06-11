@@ -9,7 +9,9 @@
 </head>
 <body>
     @include ('partials.header')
-    @include ('partials.fumetti')
+    <section>
+    @yield ('comics')
+    </section>
     @include ('partials.icon')    
     @include ('partials.footer')
 </body>

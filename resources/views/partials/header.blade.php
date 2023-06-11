@@ -7,7 +7,7 @@ $arraypage = [
     ], [
         'url'=> '/',
         'name'=> 'comics',
-        'stato'=> true
+        'stato'=> 'attiva'
     ], [
         'url'=> '/',
         'name'=> 'movies',
@@ -49,7 +49,7 @@ $arraypage = [
         <img src="{{ Vite::asset('resources/images/dc-logo.png') }}" alt="logo dc">
         <ul>
             @foreach( $arraypage as $elem )
-            <li>
+            <li class="{{$elem['stato']}}">
                 <a href="{{ $elem['url'] }}">{{ $elem['name'] }}</a>
             </li>
             @endforeach
